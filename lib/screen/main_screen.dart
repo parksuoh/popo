@@ -11,7 +11,8 @@ class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
   static const String path = "/";
   // static const String localhostPath = "192.168.0.7";
-  static const String localhostPath = "192.168.249.239";
+  // static const String localhostPath = "192.168.249.239";
+  static const String localhostPath = "59.22.21.84";
 
   @override
   Widget build(BuildContext context) {

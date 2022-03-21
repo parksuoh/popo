@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
     var dio = Dio();
 
     try {
-      final response = await dio.post('http://192.168.249.239:3000/api/user/applogin',
+      final response = await dio.post('http://${MainScreen.localhostPath}:3000/api/user/applogin',
           data: {'email': email, 'password': password});
 
       if(response.statusCode == 200) {
