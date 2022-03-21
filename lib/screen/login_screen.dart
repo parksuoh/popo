@@ -24,13 +24,11 @@ class _LoginScreenState extends State<LoginScreen> {
   void initState() {
     super.initState();
 
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
-      _asyncMethod();
-    });
+    loginInit();
 
   }
 
-  _asyncMethod() async{
+  Future loginInit() async{
     userToken = await storage.read(key : "token");
 
     if(userToken != null) {

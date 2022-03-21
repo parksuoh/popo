@@ -38,9 +38,11 @@ class _MainScreenDetailState extends State<MainScreenDetail> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
-      this.widget.loginProvider.init();
-    });
+    initProvider();
+  }
+
+  Future initProvider() async{
+    this.widget.loginProvider.init();
   }
 
 

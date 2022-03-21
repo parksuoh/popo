@@ -19,9 +19,8 @@ class _ChatRoomScreenState extends State<ChatRoomScreen> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
-      getChatRoom();
-    });
+
+    getChatRoom();
 
   }
 

@@ -21,9 +21,9 @@ class _FriendsScreenState extends State<FriendsScreen> {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance?.addPostFrameCallback((_) {
-      getFriends();
-    });
+
+    getFriends();
+
   }
 
   Future getFriends() async{
