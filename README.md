@@ -1,12 +1,6 @@
 # flutter, nodejs 포트폴리오 입니다.(1.0)
-# (이 포트폴리오가 너무 마음에 안들어서 새로운 포트폴리오로 다시만들예정)
 
 사용기술 flutter, nodejs, mongoDB
-
-다운받아서 테스트 할시 server 폴더에서 npm run backend 를 실행한후 
-flutter 에서 main_screen.dart 에서 
-static const String localhostPath = 현재 사용중 컴퓨터 ip;
-입력한후 실행시키면 됩니다.
 
 ## 설명
 
